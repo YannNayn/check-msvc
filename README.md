@@ -7,6 +7,6 @@ change to source directory
 >make
 from a cmd prompt cd to source directory
 >pushd src\.libs
->call LIB /DEF:libcheck-0.dll.def /MACHINE:X86 /OUT:libcheck.lib
+>call LIB /DEF:libcheck-0.dll.def /MACHINE:X86 /NAME:libcheck-0 /OUT:libcheck.lib
 >popd
 et voila.
